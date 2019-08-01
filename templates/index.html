@@ -6,5 +6,13 @@
 </head>
 <body>
 <h1>Post message</h1>
+
+<form action="/tweet" method="post">
+    <input type="text" name="content">
+    <input type="submit" value="投稿">
+</form>
+
+<p>{{ content }}</p>
+
 </body>
 </html>
